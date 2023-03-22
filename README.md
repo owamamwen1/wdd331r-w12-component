@@ -1,0 +1,1 @@
+# wdd331r-w12-component
