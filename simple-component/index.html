@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="cart">
+    <div class="cart-top">
+      <h2 class="cart-top-title">Your cart</h2>
+      <div class="cart-top-info">3</div>
+    </div>
+    <ul>
+      <li class="cart-item">
+        <span class="cart-item-pic">
+          <img src="./apple.png">
+        </span>
+        Apples
+        <span class="cart-item-desc">Red Delicious apples</span>
+        <span class="cart-item-price">$12</span>
+      </li>
+      <li class="cart-item">
+        <span class="cart-item-pic">
+          <img src="./tomotoes.png">
+        </span>
+        Tomatoes
+        <span class="cart-item-desc">Solanum lycopersicum</span>
+        <span class="cart-item-price">$8</span>
+      </li>
+      <li class="cart-item">
+        <span class="cart-item-pic">
+          <img src="./avocado.png">
+        </span>
+        Avocado
+        <span class="cart-item-desc">Green fruit with a large pit</span>
+        <span class="cart-item-price">$5</span>
+      </li>
+      <li class="promo-cart-item">
+        Promo code
+        <span class="promo">E4ED46FFT5EWS</span>
+        <span class="promo-discount">-$5</span>
+      </li>
+    </ul>
+    <div class="cart-total">
+      Total (USD)
+      <span class="cart-button">$20</span>
+    </div>
+  </div>
+
+  <div class="cart">
+    <div class="search-container">
+      <form action="/search">
+        <input type="text" placeholder="Promo code" name="search">
+        <button type="submit">Redeem</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
